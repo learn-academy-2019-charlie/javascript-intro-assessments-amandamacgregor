@@ -115,11 +115,13 @@ console.log(remVowels2(123))
 
 console.log("Problem 7c: Update your function to throw a TypeError if the argument is not a string.")
 
+var error = new Error("Not a string")
+error.code = "STR"
 const remVowels3 = (msg) => {
     if(typeof msg === "string") {
         return msg.replace(/[aeiou]/ig,'')
     }  else {
-        throw "Not a string"
+        return error
     }  
 }
 console.log(remVowels3(123))
@@ -130,6 +132,7 @@ var toonimals = [ {name: 'Itchy', animal: 'mouse'}, {name: 'Stimpy', animal: 'ca
 
 // 8. Write a function that takes an array like toonimals and returns an array with only the toons that are cats.
 console.log("Problem 8:")
+
 
 const toon = (arr) => {
     var newArr = []

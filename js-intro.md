@@ -1,8 +1,9 @@
 # Intro to Javascript Assessments
 
-Answer these questions, then follow the instructions to submit your first assessment!
+Answer these questions, then follow the instructions to submit your first assessment!  Also google for best answer to include as a second option
 
 #### 1. What is a function? Why would you use one?
+Random sentence - test for git
 
 #### 2. What is a method?
 
